@@ -13,4 +13,7 @@ font-size: 62.7%;
     background-image:url(Images/SignIn3.jpg);
     background-size: cover;
     background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
