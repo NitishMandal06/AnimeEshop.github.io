@@ -4,30 +4,357 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outfit</title>
+    <title>Store</title>
     <link rel="stylesheet" href="Css/outfit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,100;1,200&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e3132c2b49.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="page">
-        <div class="navbar">
-           <nav> <ul>
-                <li><a href="bestoffers.html">Best Offers</a></li>
-                <li><a href="trending.html">Trending</a></li>
-                <li><a href="explore.html">Explore</a></li>
-                <li><a href="fancraze.html">Crazy Items</a></li>
-            </ul>
-        </nav>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-2">
-            <h1>Get All your Favourite Anime outfit here! <br>
-                
-            </h1>
-        </div><br>
-        <div class="col-2">
+    
+        <div class="container">
+            <div class="navbar" >
+                            <div class="logo">
+                                 <img src="Images/store-logo.png" width="100px" >
+                             </div>
+                    <nav > <ul id="NavItems">
+                            <li><a href="#onsale">Best Offers</a></li>
+                            <li><a href="#trendings">Trending</a></li>
+                            <li><a href="#limitedsale">Limited</a></li>
+                            <li><a href="#hoodiees">Hoodies</a></li>
+                     </ul>
+                    </nav>
+                    <img src="css/images/navbar.png" class="menu" height="35px" onclick="menutoggle();">
+            </div>
             
+                <div class="row">
+                    <div class="col-2">
+                            <h1>Get All your Favourite <br> Anime outfit here! </h1><br><br>
+                             <p>Watched an Anime and want the outfit of your favourite character<br>
+                            We have all outfit you wished for. <br><br>
+                            Go get them all!
+                                </p>
+                                 <a href="#" class="more">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="Css/Images/topback.png" alt="">
+                    </div>
+                </div>
+        </div>
+    
+
+    <!-----------------------------------------------------TRENDINGS--------------------------------------------------------------->
+
+    <div class="items">
+        <div class="mini-container">
+            <h2 class="top" id="trendings">TRENDING</h2>
+            <!-- <a href="">Explore more</a> -->
+            <div class="row">
+                <div class="col-3"><a href="#"><img src="css/Images/luffy-shirt.jpg" height="394px" width="300px">
+                <h4>Luffy t-shirt</h4>
+                <p>$10.00</p></a>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/sword.jpg " height="394px" width="300px">
+                    <h4>Zoro Sword</h4>
+                    <p>$12.00</p></a>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/gojo.jpg" height="394px" width="300px" >
+                    <h4>Gojo Hoodie</h4>
+                    <p>$20.00</p></a>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+<!-- --------------------------------------------------------HOODIES------------------------------------------------------------ -->
+    <div class="items">
+        <div class="mini-container">
+            <h2 class="top" id="hoodiees">HOODIES</h2>
+            <!-- <a href="">Explore more</a> -->
+            <div class="row">
+                <div class="col-3"><a href="#"><img src="css/Images/akatsukicloak.jpg" height="394px" width="300px">
+                <h4>Akatsuki Hoodie</h4>
+                <p>$10.00</p></a>
+                <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                </div>
+                
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/kakahoodie.jpg " height="394px" width="300px">
+                    <h4>Kakashi Hoodie</h4>
+                    <p>$12.00</p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/hoodie2.jpg" height="394px" width="300px" >
+                    <h4>Hokage Hoodie</h4>
+                    <p>$20.00</p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- ------------------------------------------------------ON SALE----------------------------------------------------------- -->
+    <div class="items">
+        <div class="mini-container">
+            <h2 class="top" id="onsale">BEST OFFERS</h2>
+            <!-- <a href="">Explore more</a> -->
+            <div class="row">
+                <div class="col-3"><a href="#"><img src="css/Images/Ring.jpg" height="287.51px" width="312.71px">
+                <h4>Itachi's Ring</h4>
+                <p><del>$5.00</del> $4.00 <span>SALE</span></p></a>
+                <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/hand.jpg " height="287.51px" width="312.71px">
+                    <h4>Konoha bracelet</h4>
+                    <p><del>$7.00</del> $5.00<span>SALE</span></p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/iatchimask-removebg-preview.jpg" height="287.51px" width="312.71px" >
+                    <h4>Mask </h4>
+                    <p><del>$2.00</del> $1.50<span>SALE</span></p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- ---------------------------------------------PRINTED ITEMS----------------------------------------------------------- -->
+    <div class="items">
+        <div class="mini-container">
+            <h2 class="top" id="newitems">NEW ITEMS</h2>
+            <!-- <a href="">Explore more</a> -->
+            <div class="row">
+                <div class="col-3"><a href="#"><img src="css/Images/luffy-hat.jpg" height="287.51px" width="312.71px">
+                <h4>Luffy Hat</h4>
+                <p>$12.00</p></a>
+                <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/sharnigan.jpg " height="287.51px" width="312.71px">
+                    <h4>Pendant</h4>
+                    <p>$8.00</p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i></div>
+                </div>
+                <div class="col-3"><a href="#"><img src="css/Images/deathnote.jpg" height="287.51px" width="312.71px" >
+                    <h4>Diary</h4>
+                    <p>$6.00</p></a>
+                    <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!-- 
+    --------------------------------------LIMITED EDITON-------------------------------- -->
+
+
+    <div class="offered" id="limitedsale">
+        <div class="mini-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Css/Images/zeitisu-sword.png" class="zeitisu-sword">
+                    
+                 </div>
+                 <div class="col-2">
+                    <h2>THE THUNDER SWORD</h2>
+                    <p class="line">Availabe for limited time only, And also limited in stock. <br>
+                        hurry up and purchase the limited edition of <span>ZENITSU THUNDER SWORD!</span>
+                    </p>
+                    <p class="para">It is a 41 inch sword and there is a signature of the story writter of<br>DEMON SLAYER the
+                            sword comes with the weigth of 1.4kg <br> This is really a deadly weapon.
+                    </p>
+                            <a href="#" class="more">Buy Now &#8594;</a>
+                        
+                 </div>
+            </div>
         </div>
     </div>
+
+<!-- ------------------------------------------------REVIEWS------------------------------------------------ -->
+
+<div class="reviews">
+    <div class="mini-container">
+        <h2 class="top">What our customer says?</h2>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Last day i was looking for an outfit, I tried to look the outfit on many
+                    website but the price was high, And sudden i landed on this page and they had all i was looking
+                for at discount.</p>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="css/images/userlogo.png" class="userlogo">
+                    <h3>User 1</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Wohoo! i got them all, I visited full website and i found sometimes you keep price low, but in some items 
+                    are at high price please can you review them and rearrange them.
+                </p>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="css/images/userlogo.png" class="userlogo">
+                    <h3>User 2</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I buyed a hoodie and everyone looked at me and ask From where do you got this?
+                it was like i wear the hoodie of their's dream i wish you'll continue to bring such amazing items </p>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <img src="css/images/userlogo.png" class="userlogo">
+                    <h3>User 3</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------FOOTER------------------------------------------------ -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="css/Images/play-store.png" alt="">
+                    <img src="css/Images/app-store.png" alt="" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="css/images/logo.png" height="100px">
+                <p>Wished it.. <br> Get it!</p>
+            </div>
+            
+            <div class="footer-col-3">
+                <h3>Explore</h3>
+                <ul>
+                    <a href="#trendings"><li>Trending</li></a>
+                    <li>On Sale</li>
+                    <li>Mangas</li>
+                    <li>Hoodies</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Contact Us</h3>
+                <ul>
+                    <a href="https://www.instagram.com/king_nitish07/"><li>Instagram</li></a>
+                    <a href="https://www.linkedin.com/in/nitish-mandal-42a317261"><li>Linked In</li></a>
+                    <a href="mailto:mandalnitish06@gmail.com"><li>Gmail</li></a>
+                    <a href="https://github.com/Tiaparker7"><li>Git Hub</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="cpyr">Made by Nitish Mandal | With <i class="fa-solid fa-heart"></i> in Anime</p>
+    </div>
+</div>
+<!-- -----------------------------------------Toogle menu------------------------- -->
+
+<script>
+    var NavItems = document.getElementById("NavItems");
+    NavItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(NavItems.style.maxHeight == "0px"){
+            NavItems.style.maxHeight = "200px";
+        }
+        else{
+            NavItems.style.maxHeight ="0px"
+        }
+    }
+</script>
 </body>
 </html>
